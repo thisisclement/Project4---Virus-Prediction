@@ -1,12 +1,15 @@
 # Project4---Virus-Prediction
 
 #### Refer to 'proj4_eda' notebook for data cleaning and exploratory analysis
-#### Refer to 'proj4_cba' notebook for cost benefit analysis of spraying to minimize the threat of the West Nile Virus
-
-## 1. Introduction
+#### Refer to 'proj4_modelling' notebok for data modelling, model selection and evaluation
+#### Refer to 'proj4_cba' notebook for the cost benefit analysis of spraying in Chicago to minimize the threat of the West Nile Virus
 
 ## Introduction
 The objective of this project is to predict the presence of the West Nile Virus in the city of Chicago and to conduct a cost benefit analysis of spraying insecticide as a counter-measure.
+
+__Problem Statement:__ 
+<br>Given a post from either of two subreddits, I would like to understand, using machine learning, whether it is possible to identify which subreddit it belongs to.
+
 
 ## Data
 ##### 4 sets of data are provided:
