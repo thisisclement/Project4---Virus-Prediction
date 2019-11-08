@@ -10,6 +10,18 @@ The objective of this project is to predict the presence of the West Nile Virus 
 __Problem Statement:__ 
 <br>Given a post from either of two subreddits, I would like to understand, using machine learning, whether it is possible to identify which subreddit it belongs to.
 
+## Executive Summary
+
+
+
+We recommend the city of Chicago to spray, in order to carried out to suppress the number of Culex mosquitoes, and that public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes in general.<br>
+We also recommend the following:<br>
+1) Study migratory patterns of WNV-infected birds<br>
+2) Study interactions between WNV-infected birds and Culex mosquitoes<br>
+3) Regression analysis to predict the number of Culex mosquitoes
+
+---------------------------------------
+
 
 ## Data
 ##### 4 sets of data are provided:
@@ -55,12 +67,7 @@ The submission comprises 2 jupyter notebooks:<br>
 1) Effectiveness of spraying is estimated at about 50%<br>
 2) Costs of spraying based on insecticide product Zenivex®E4<br>
 3) Determine projected cost of insecticide to be used<br>
-## Conclusions and Recommendations
-We conclude that spraying should be carried out to suppress the number of Culex mosquitoes, and that public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes in general.<br>
-We also recommend the following:<br>
-1) Study migratory patterns of WNV-infected birds<br>
-2) Study interactions between WNV-infected birds and Culex mosquitoes<br>
-3) Regression analysis to predict the number of Culex mosquitoes
+
 
 
 
