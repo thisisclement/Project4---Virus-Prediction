@@ -74,7 +74,7 @@ It is recommended that the city of Chicago continues its spray routine, in order
 | Spraying | \$701,790                     |
 
 
-Assuming there will be an outbreak, the medical fees are estimated to be \\$168 million to \\$250 million and conversely if the state will have to spray, assuming they spray 477 square kilometres, it will be only just \\$701,790.
+Assuming there will be an outbreak, the medical fees are estimated to be \$168 million to \$250 million and conversely if the state will have to spray, assuming they spray 477 square kilometres, it will be only just \$701,790.
 
 This seems to be an obvious choice to choose one of the vector control methods, spraying of insecticide to save future costs impacted by the existence of the West Nile Virus.
 
