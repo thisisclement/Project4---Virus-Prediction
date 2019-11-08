@@ -18,8 +18,8 @@ Data provided (train.csv, test.csv) was analyzed, cleaned, processed and ran thr
 The model that performed the best came from a __AdaBoost Classifier__, with a parameter of 0.73 for learning rate. 
 
 It is recommended that the city of Chicago continues its spray routine, in order to suppress the number of Culex mosquitoes, and that the public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes. 
-<br>
-We also recommend the following:<br>
+
+<br>We also recommend the following:<br>
 1) Study migratory patterns of WNV-infected birds<br>
 2) Study interactions between WNV-infected birds and Culex mosquitoes<br>
 3) Regression analysis to predict the number of Culex mosquitoes
