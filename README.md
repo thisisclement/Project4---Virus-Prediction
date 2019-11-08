@@ -63,15 +63,15 @@ It is recommended that the city of Chicago continues its spray routine, in order
 7) AdaBoostClassifier(n_estimators=100)<br>
 ## Cost-Benefit Analysis
 1) Effectiveness of spraying is estimated at about 50%<br>
-2) Research has shown that costs of projected medical fees of patients with WNV during an outbreak is \\$168 million to \\$250 million.
-3) Costs of spraying based on insecticide product Zenivex®E4 and engaging the vector control agency is estimated at \\$701,790.
+2) Research has shown that costs of projected medical fees of patients with WNV during an outbreak is \$168 million to \$250 million.
+3) Costs of spraying based on insecticide product Zenivex®E4 and engaging the vector control agency is estimated at \$701,790.
   - This is estimated during a West Nile Virus outbreak in California during the year of 2012 where spraying was done on 477 square kilometres.
 
 ## Conclusions
 | Type     | Cost                         |
 |----------|------------------------------|
-| Medical  | \\$168 million to \\$250 million |
-| Spraying | \\$701,790                     |
+| Medical  | \$168 million to \$250 million |
+| Spraying | \$701,790                     |
 
 
 Assuming there will be an outbreak, the medical fees are estimated to be \\$168 million to \\$250 million and conversely if the state will have to spray, assuming they spray 477 square kilometres, it will be only just \\$701,790.
