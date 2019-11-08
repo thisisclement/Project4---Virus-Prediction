@@ -1,4 +1,4 @@
-# Project4---Virus-Prediction
+# West Nile Virus Prediction
 
 Refer to 'proj4_eda' notebook for data cleaning and exploratory analysis
 <br>Refer to 'proj4_modelling' notebok for data modelling, model selection and evaluation
