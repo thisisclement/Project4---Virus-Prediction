@@ -5,7 +5,7 @@ Refer to 'proj4_eda' notebook for data cleaning and exploratory analysis
 <br>Refer to 'proj4_cba' notebook for the cost benefit analysis of spraying in Chicago to minimize the threat of the West Nile Virus
 
 ## Introduction
-The West Nile Virus is a single-stranded RNA virus that causes West Nile fever found commonly in the hotter regions of Africa, Europe, the Middle East, North America and West Asia. It is a member of the family Flaviviridae, specifically from the genus Flavivirus, which also contains the Zika virus, dengue virus, and yellow fever virus. Transmitted primarily by the Culex species of mosquitoes, it is maintained in nature in a cycle involving transmission between birds and mosquitoes.
+The West Nile Virus is a single-stranded RNA virus that causes West Nile Fever, found commonly in the hotter regions of Africa, Europe, the Middle East, North America and West Asia. It is a member of the family Flaviviridae, which also contains the Zika virus, dengue virus, and yellow fever virus. Transmitted primarily by the Culex species of mosquitoes, it is maintained in nature in a cycle involving transmission between birds and mosquitoes.
 
 At the time the competition, there was a recent eipdemic of the virus in Chicago, and the Department of public Health had set up a surveillance and control system, to learn about and combat the epidemic.
 
