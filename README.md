@@ -5,16 +5,21 @@
 #### Refer to 'proj4_cba' notebook for the cost benefit analysis of spraying in Chicago to minimize the threat of the West Nile Virus
 
 ## Introduction
-The objective of this project is to predict the presence of the West Nile Virus in the city of Chicago and to conduct a cost benefit analysis of spraying insecticide as a counter-measure.
+The West Nile Virus is a single-stranded RNA virus that causes West Nile fever found commonly in the hotter regions of Africa, Europe, the Middle East, North America and West Asia. It is a member of the family Flaviviridae, specifically from the genus Flavivirus, which also contains the Zika virus, dengue virus, and yellow fever virus. Transmitted primarily by the Culex species of mosquitoes, it is maintained in nature in a cycle involving transmission between birds and mosquitoes.
+
+At the time the competition, there was a recent eipdemic of the virus in Chicago, and the Department of public Health had set up a surveillance and control system, to learn about and combat the epidemic.
 
 __Problem Statement:__ 
-<br>Given a post from either of two subreddits, I would like to understand, using machine learning, whether it is possible to identify which subreddit it belongs to.
+<br> To establish a model that support the eradication of the West Nile Virus in Chicago, by detecting and suppressing the population of Culex mosquitoes in a cost effective and sustainable manner.
 
 ## Executive Summary
+Data provided (train.csv, test.csv) was analyzed, cleaned, processed and ran through several classification models (e.g. Logistic Regression, KNearestNeighbor, Decision Tree Classifier). 
 
+The model that performed the best came from a __AdaBoost Classifier__, with a parameter of 0.73 for learning rate. 
 
+It is recommended that the city of Chicago continues its spray routine, in order to suppress the number of Culex mosquitoes, and that the public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes. 
 
-We recommend the city of Chicago to spray, in order to carried out to suppress the number of Culex mosquitoes, and that public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes in general.<br>
+<br>
 We also recommend the following:<br>
 1) Study migratory patterns of WNV-infected birds<br>
 2) Study interactions between WNV-infected birds and Culex mosquitoes<br>
@@ -22,18 +27,12 @@ We also recommend the following:<br>
 
 ---------------------------------------
 
-
 ## Data
 ##### 4 sets of data are provided:
 1) Weather records (2,944 rows) from 2007-05-01 to 2014-10-31<br>
 2) Spray records (14,835 rows) from 2011-08-29 to 2013-09-05<br>
 3) Training records (10,506 rows) from 2007-05-29 to 2013-09-26<br>
 4) Testing records (116,293 rows) from 2008-06-11 to 2014-10-02<br>
-## Project Submission
-The submission comprises 2 jupyter notebooks:<br>
-1) Project Presentation<br>
-2) proj4_eda.ipynb (Data cleaning and EDA)<br>
-3) proj4_model.ipynb (Modelling)<br>
 ## Data Cleaning/Preprocessing and EDA
 ##### Cleaning
 1) Removal of duplicates rows or rows with too many missing values<br>
@@ -67,36 +66,3 @@ The submission comprises 2 jupyter notebooks:<br>
 1) Effectiveness of spraying is estimated at about 50%<br>
 2) Costs of spraying based on insecticide product Zenivex®E4<br>
 3) Determine projected cost of insecticide to be used<br>
-
-
-
-
-
-
-
-
-
-__Problem Statement:__ 
-<br>Given a post from either of two subreddits, I would like to understand, using machine learning, whether it is possible to identify which subreddit it belongs to.
-
-__Choice of Subreddit:__ 
-<br>The two subreddits I would like to explore in this project are __r/nosleep__ and __r/randomactsofkindness (abbrev: r/raok)__:
-
-- Nosleep is a subreddit for realistic horror stories.
-- Randomactsofkindness is a subreddit for non-fictional stories on inspiration and kindness occurences. 
-
-<br> The narrative, story-based nature of both subreddits present an interesting classification challenge, despite little overlaps in the topic.
-
-## 2. Executive Summary
-
-Posts from both subreddits are scraped using API, analyzed, cleaned, processed and ran through several classification models (e.g. Logistic Regression, KNearestNeighbor, Decision Tree Classifier). 
-
-The model that performed the best came from a __Logistic Regression with Count Vectorizer__, at a classification prediction accuracy rate of __99%__. 
-
-The high accuracy rates are unsurprising for two reasons:
-- Both posts engage in topics that have very little overlap, leading to distinct classification identifiers from both posts;
-- r/nosleep is fictional, while r/raok is non-fiction, further distincting the language that is used in both subreddits.
-
-While the model performed best for this two subreddits, it can be further stress-tested in situations where:
-- A 3rd subreddit is introduced;
-- Two subreddits with more topical overlap are used
