@@ -9,15 +9,15 @@ The West Nile Virus is a single-stranded RNA virus that causes West Nile Fever, 
 
 At the time the competition, there was a recent eipdemic of the virus in Chicago, and the Department of public Health had set up a surveillance and control system, to learn about and combat the epidemic.
 
-__Problem Statement:__ 
+__Problem Statement:__
 <br> To establish a model that support the eradication of the West Nile Virus in Chicago, by detecting and suppressing the population of Culex mosquitoes in a cost effective and sustainable manner.
 
 ## Executive Summary
-Data provided (train.csv, test.csv) was analyzed, cleaned, processed and ran through several classification models (e.g. Logistic Regression, KNearestNeighbor, Decision Tree Classifier). 
+Data provided (train.csv, test.csv) was analyzed, cleaned, processed and ran through several classification models (e.g. Logistic Regression, KNearestNeighbor, Decision Tree Classifier).
 
-The model that performed the best came from a __AdaBoost Classifier__, with a parameter of 0.73 for learning rate. 
+The model that performed the best came from a __AdaBoost Classifier__, with a parameter of 0.73 for learning rate.
 
-It is recommended that the city of Chicago continues its spray routine, in order to suppress the number of Culex mosquitoes, and that the public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes. 
+It is recommended that the city of Chicago continues its spray routine, in order to suppress the number of Culex mosquitoes, and that the public should be educated to take preventive measures to minimize the inadvertent breeding of mosquitoes.
 
 <br>We also recommend the following:<br>
 1) Study migratory patterns of WNV-infected birds<br>
@@ -63,5 +63,19 @@ It is recommended that the city of Chicago continues its spray routine, in order
 7) AdaBoostClassifier(n_estimators=100)<br>
 ## Cost-Benefit Analysis
 1) Effectiveness of spraying is estimated at about 50%<br>
-2) Costs of spraying based on insecticide product Zenivex®E4<br>
-3) Determine projected cost of insecticide to be used<br>
+2) Research has shown that costs of projected medical fees of patients with WNV during an outbreak is \\$168 million to \\$250 million.
+3) Costs of spraying based on insecticide product Zenivex®E4 and engaging the vector control agency is estimated at \\$701,790.
+  - This is estimated during a West Nile Virus outbreak in California during the year of 2012 where spraying was done on 477 square kilometres.
+
+## Conclusions
+| Type     | Cost                         |
+|----------|------------------------------|
+| Medical  | \\$168 million to \\$250 million |
+| Spraying | \\$701,790                     |
+
+
+Assuming there will be an outbreak, the medical fees are estimated to be \\$168 million to \\$250 million and conversely if the state will have to spray, assuming they spray 477 square kilometres, it will be only just \\$701,790.
+
+This seems to be an obvious choice to choose one of the vector control methods, spraying of insecticide to save future costs impacted by the existence of the West Nile Virus.
+
+However, West Nile Virus and mosquito populations should be everyone's problem so that we can combat the West Nile Virus and other vector bourne diseases together. We can educate the public to remove stagnant water and other favourable conditions of mosquito breeding starting from their own homes and workplaces. This should be the best way forward to prevent the laying eggs of mosquitos.
