@@ -1,13 +1,13 @@
 # Project4---Virus-Prediction
 
-#### Refer to <notebook name> notebook for data cleaning and exploratory analysis
+#### Refer to 'proj4_eda' notebook for data cleaning and exploratory analysis
 #### Refer to 'proj4_cba' notebook for cost benefit analysis of spraying to minimize the threat of the West Nile Virus
 
 ## 1. Introduction
 
-# Project4---Virus-Prediction
 ## Introduction
 The objective of this project is to predict the presence of the West Nile Virus in the city of Chicago and to conduct a cost benefit analysis of spraying insecticide as a counter-measure.
+
 ## Data
 ##### 4 sets of data are provided:
 1) Weather records (2,944 rows) from 2007-05-01 to 2014-10-31<br>
